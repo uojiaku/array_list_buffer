@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "canisters": {
+    "array": {
+      "type": "motoko",
+      "main": "array.mo"
+    },
+    "list": {
+      "type": "motoko",
+      "main": "list.mo"
+    },
+    "buffer": {
+      "type": "motoko",
+      "main": "buffer.mo"
+    },
+    "badbuffer": {
+      "type": "motoko",
+      "main": "badbuffer.mo"
+    },
+    "goodbuffer": {
+      "type": "motoko",
+      "main": "goodbuffer.mo"
+    }
+  },
+  "defaults": {
+    "build": {
+      "packtool": "",
+      "args": ""
+    }
+  },
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:4946"
+    }
+  },
+  "output_env_file": ".env"
+}

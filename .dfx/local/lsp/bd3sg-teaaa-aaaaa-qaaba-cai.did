@@ -1,0 +1,9 @@
+type Student = 
+ record {
+   age: nat;
+   name: text;
+ };
+service : {
+  ChangeAge: (nat, nat) -> ();
+  addStudent: (Student) -> ();
+}

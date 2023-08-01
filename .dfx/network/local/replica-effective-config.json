@@ -1,0 +1,30 @@
+{
+  "replica_rev": "ef8ca68771baa20a14af650ab89c9b31b1dc9a5e",
+  "type": "replica",
+  "config": {
+    "http_handler": {
+      "port": null,
+      "write_port_to": "/home/dr_ochman/array_list_buffer/.dfx/network/local/replica-configuration/replica-1.port"
+    },
+    "state_manager": {
+      "state_root": "/home/dr_ochman/array_list_buffer/.dfx/network/local/state/replicated_state"
+    },
+    "crypto": {
+      "crypto_root": "/home/dr_ochman/array_list_buffer/.dfx/network/local/state/crypto_store"
+    },
+    "artifact_pool": {
+      "consensus_pool_path": "/home/dr_ochman/array_list_buffer/.dfx/network/local/state/consensus_pool"
+    },
+    "subnet_type": "application",
+    "btc_adapter": {
+      "enabled": false,
+      "socket_path": null
+    },
+    "canister_http_adapter": {
+      "enabled": true,
+      "socket_path": "/tmp/ic-https-outcalls-adapter-socket.29920.1689478923"
+    },
+    "log_level": "error",
+    "artificial_delay": 600
+  }
+}
